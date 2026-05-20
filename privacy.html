@@ -245,144 +245,310 @@
     <p>Asistencia SIU + Form al Toque · Última actualización: mayo de 2025</p>
   </div>
 
-  <div class="content-wrapper">
+```html
+<div class="content-wrapper">
 
-    <!-- Summary cards -->
-    <div class="summary-grid">
-      <div class="summary-card green">
-        <div class="s-icon">🛡️</div>
-        <h3>Sin recolección de datos</h3>
-        <p>No recopilamos ningún dato personal tuyo ni de tus alumnos.</p>
-      </div>
-      <div class="summary-card green">
-        <div class="s-icon">💻</div>
-        <h3>Procesamiento local</h3>
-        <p>Todo ocurre en tu navegador. Nada sale de tu dispositivo.</p>
-      </div>
-      <div class="summary-card green">
-        <div class="s-icon">🚫</div>
-        <h3>Sin servidores externos</h3>
-        <p>No enviamos datos a terceros ni a servidores propios.</p>
-      </div>
+  <!-- Summary cards -->
+  <div class="summary-grid">
+    <div class="summary-card green">
+      <div class="s-icon">🛡️</div>
+      <h3>Sin recolección masiva</h3>
+      <p>No recopilamos ni comercializamos datos personales de usuarios o estudiantes.</p>
     </div>
 
-    <!-- 1. Responsable -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">👤</div>
-        <h2>1. Responsable de la extensión</h2>
-      </div>
-      <div class="policy-section-body">
-        <p>Esta extensión fue desarrollada por <strong>Hernán Coniglio, Mauricio Pintos y Matías Müller</strong>, docentes, programadores y estudiantes de la <strong>Universidad Nacional de Hurlingham (UNAHUR)</strong>, Argentina.</p>
-        <p>El desarrollo es de carácter no comercial y de código abierto, orientado a facilitar las tareas docentes dentro del sistema SIU Guaraní.</p>
-      </div>
+    <div class="summary-card green">
+      <div class="s-icon">💻</div>
+      <h3>Procesamiento local</h3>
+      <p>La mayor parte del procesamiento ocurre localmente dentro del navegador del usuario.</p>
     </div>
 
-    <!-- 2. Qué datos procesa -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">📄</div>
-        <h2>2. Datos que procesa la extensión</h2>
-      </div>
-      <div class="policy-section-body">
-        <p>La extensión trabaja exclusivamente con los datos que el propio docente ingresa de forma manual durante su uso:</p>
-        <ul>
-          <li>Números de DNI de estudiantes, ingresados por el docente en el campo de texto de la extensión.</li>
-          <li>Contenido de la página web del SIU Guaraní abierta en el navegador, necesario para localizar y marcar la asistencia.</li>
-        </ul>
-        <div class="highlight-box">
-          ⚠️ <strong>Importante:</strong> Estos datos se utilizan únicamente para ejecutar la función de marcado automático. Nunca son guardados, enviados ni compartidos.
-        </div>
-      </div>
+    <div class="summary-card green">
+      <div class="s-icon">🔑</div>
+      <h3>Acceso limitado</h3>
+      <p>Los permisos de Google OAuth se utilizan únicamente para las funciones explícitamente autorizadas por el usuario.</p>
     </div>
-
-    <!-- 3. Qué NO hacemos -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">🚫</div>
-        <h2>3. Lo que no hacemos</h2>
-      </div>
-      <div class="policy-section-body">
-        <ul>
-          <li class="no">No recopilamos datos personales de docentes ni de estudiantes.</li>
-          <li class="no">No almacenamos información en bases de datos propias ni en la nube.</li>
-          <li class="no">No transmitimos datos a servidores externos.</li>
-          <li class="no">No compartimos información con terceros bajo ningún concepto.</li>
-          <li class="no">No utilizamos cookies ni tecnologías de seguimiento.</li>
-          <li class="no">No mostramos publicidad de ningún tipo.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- 4. Permisos de Google -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">🔑</div>
-        <h2>4. Permisos de Google / OAuth</h2>
-      </div>
-      <div class="policy-section-body">
-        <p>Para algunas funcionalidades opcionales (como la generación de formularios de Google), la extensión puede solicitar autorización para acceder a tu cuenta de Google mediante OAuth 2.0.</p>
-        <p>En caso de que otorgues ese permiso:</p>
-        <ul>
-          <li>El acceso se utiliza exclusivamente para crear el formulario en tu Google Drive personal.</li>
-          <li>No accedemos a ningún otro archivo, correo ni información de tu cuenta.</li>
-          <li>Podés revocar este permiso en cualquier momento desde <a href="https://myaccount.google.com/permissions" target="_blank" style="color:var(--accent);">myaccount.google.com/permissions</a>.</li>
-        </ul>
-        <div class="highlight-box">
-          El uso de los datos obtenidos mediante OAuth cumple con la <strong>Política de Datos de Usuario de Google</strong> y se limita estrictamente a la funcionalidad declarada de la extensión.
-        </div>
-      </div>
-    </div>
-
-    <!-- 5. Almacenamiento local -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">💾</div>
-        <h2>5. Almacenamiento local del navegador</h2>
-      </div>
-      <div class="policy-section-body">
-        <p>La extensión puede utilizar el almacenamiento local del navegador (<code>chrome.storage.local</code>) únicamente para guardar preferencias de configuración del usuario (por ejemplo, configuraciones de la extensión entre sesiones).</p>
-        <p>Este almacenamiento:</p>
-        <ul>
-          <li>Reside exclusivamente en tu dispositivo local.</li>
-          <li>No es accesible para terceros ni para los desarrolladores de la extensión.</li>
-          <li>Puede ser eliminado en cualquier momento desde la configuración de Chrome.</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- 6. Menores de edad -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">👶</div>
-        <h2>6. Menores de edad</h2>
-      </div>
-      <div class="policy-section-body">
-        <p>Esta extensión está destinada al uso exclusivo de docentes universitarios mayores de 18 años. No está orientada ni diseñada para ser utilizada directamente por menores de edad.</p>
-      </div>
-    </div>
-
-    <!-- 7. Cambios -->
-    <div class="policy-section">
-      <div class="policy-section-header">
-        <div class="sec-icon">📝</div>
-        <h2>7. Cambios en esta política</h2>
-      </div>
-      <div class="policy-section-body">
-        <p>Cualquier actualización a esta política de privacidad será publicada en esta misma página. Te recomendamos revisarla periódicamente. El uso continuado de la extensión después de la publicación de cambios implica la aceptación de la política actualizada.</p>
-      </div>
-    </div>
-
-    <!-- Contacto -->
-    <div class="contact-block">
-      <h3>¿Tenés alguna pregunta?</h3>
-      <p>Si tenés dudas sobre esta política de privacidad o el manejo de datos de la extensión, podés contactarnos directamente.</p>
-      <a href="mailto:hernanconiglio@gmail.com">Escribinos un correo</a>
-    </div>
-
-    <p class="update-note">Esta política fue redactada el 1 de mayo de 2025 y rige para la versión 4.5.6 y posteriores de la extensión.</p>
-
   </div>
+
+  <!-- 1 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">👤</div>
+      <h2>1. Responsable de la aplicación</h2>
+    </div>
+
+    <div class="policy-section-body">
+      <p>
+        La extensión <strong>Asistencia SIU + Form al Toque</strong>
+        fue desarrollada por Hernán Coniglio, Mauricio Pintos y
+        Matías Müller, integrantes de la comunidad académica de la
+        Universidad Nacional de Hurlingham (UNAHUR), Argentina.
+      </p>
+
+      <p>
+        Esta herramienta tiene como objetivo facilitar tareas
+        administrativas y académicas relacionadas con el sistema
+        SIU Guaraní.
+      </p>
+
+      <p>
+        Para consultas relacionadas con privacidad o uso de datos:
+        <strong>hernanconiglio@gmail.com</strong>
+      </p>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">📄</div>
+      <h2>2. Información procesada por la extensión</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <p>
+        La extensión puede procesar la siguiente información
+        únicamente con fines funcionales:
+      </p>
+
+      <ul>
+        <li>
+          Números de DNI ingresados manualmente por el docente.
+        </li>
+
+        <li>
+          Información visible dentro de páginas del sistema
+          SIU Guaraní abiertas por el usuario.
+        </li>
+
+        <li>
+          Datos mínimos necesarios para generar formularios
+          asociados a la cuenta de Google del usuario,
+          cuando dicha funcionalidad es utilizada.
+        </li>
+      </ul>
+
+      <div class="highlight-box">
+        ⚠️ Toda la información se utiliza exclusivamente para
+        ejecutar las funciones solicitadas por el usuario.
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">🔑</div>
+      <h2>3. Uso de Google APIs y OAuth</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <p>
+        Algunas funcionalidades opcionales requieren autenticación
+        mediante Google OAuth 2.0.
+      </p>
+
+      <p>
+        En caso de que el usuario otorgue autorización,
+        la aplicación puede utilizar:
+      </p>
+
+      <ul>
+        <li>Google Drive API</li>
+        <li>Google Forms API</li>
+      </ul>
+
+      <p>
+        El acceso se utiliza exclusivamente para:
+      </p>
+
+      <ul>
+        <li>
+          Crear formularios asociados a la cuenta del usuario.
+        </li>
+
+        <li>
+          Permitir que el usuario gestione dichos formularios.
+        </li>
+      </ul>
+
+      <p>
+        La aplicación no accede, lee, modifica ni comparte
+        correos electrónicos, documentos personales,
+        contactos u otra información no relacionada con
+        la funcionalidad declarada.
+      </p>
+
+      <div class="highlight-box">
+        El uso y transferencia de información recibida desde
+        Google APIs hacia cualquier otra aplicación cumple con
+        la <strong>Google API Services User Data Policy</strong>,
+        incluyendo los requisitos de <strong>Limited Use</strong>.
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">🚫</div>
+      <h2>4. Datos que NO recopilamos</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <ul>
+        <li class="no">
+          No vendemos información personal.
+        </li>
+
+        <li class="no">
+          No utilizamos datos para publicidad.
+        </li>
+
+        <li class="no">
+          No realizamos perfiles de usuarios.
+        </li>
+
+        <li class="no">
+          No compartimos información con terceros.
+        </li>
+
+        <li class="no">
+          No utilizamos herramientas de tracking,
+          analytics invasivos ni fingerprinting.
+        </li>
+
+        <li class="no">
+          No almacenamos bases de datos de alumnos
+          o docentes en servidores externos.
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">💾</div>
+      <h2>5. Almacenamiento local</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <p>
+        La extensión puede utilizar almacenamiento local del navegador
+        (<code>chrome.storage.local</code>) únicamente para guardar:
+      </p>
+
+      <ul>
+        <li>Preferencias del usuario.</li>
+        <li>Configuraciones de funcionamiento.</li>
+        <li>Datos temporales necesarios para la operación local.</li>
+      </ul>
+
+      <p>
+        Esta información permanece exclusivamente en el dispositivo
+        del usuario y no es transmitida a servidores externos.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">🧹</div>
+      <h2>6. Eliminación y revocación de permisos</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <p>
+        El usuario puede revocar el acceso OAuth otorgado
+        a la aplicación en cualquier momento desde:
+      </p>
+
+      <p>
+        <a
+          href="https://myaccount.google.com/permissions"
+          target="_blank"
+          style="color:var(--accent);"
+        >
+          https://myaccount.google.com/permissions
+        </a>
+      </p>
+
+      <p>
+        También puede eliminar los datos almacenados localmente
+        desinstalando la extensión o limpiando los datos del navegador.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">👶</div>
+      <h2>7. Uso destinado</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <p>
+        Esta herramienta está orientada a docentes,
+        instituciones educativas y usuarios mayores de 18 años.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="policy-section">
+    <div class="policy-section-header">
+      <div class="sec-icon">📝</div>
+      <h2>8. Cambios en esta política</h2>
+    </div>
+
+    <div class="policy-section-body">
+
+      <p>
+        Esta política puede actualizarse periódicamente
+        para reflejar cambios técnicos, legales o funcionales.
+      </p>
+
+      <p>
+        Las modificaciones serán publicadas en esta misma página.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="contact-block">
+    <h3>Contacto</h3>
+
+    <p>
+      Para consultas relacionadas con privacidad,
+      OAuth o uso de datos:
+    </p>
+
+    <a href="mailto:hernanconiglio@gmail.com">
+      hernanconiglio@gmail.com
+    </a>
+  </div>
+
+  <p class="update-note">
+    Última actualización: mayo de 2026
+  </p>
+
+</div>
 
   <footer>
     <div class="footer-links">
@@ -390,7 +556,8 @@
       <a href="privacy.html">Política de privacidad</a>
       <a href="https://chromewebstore.google.com/detail/fmfocmknpipdeblmpjcgjciejdkljbmk" target="_blank">Chrome Web Store</a>
     </div>
-    <p>© 2024 Asistencia SIU + Form al Toque · Universidad Nacional de Hurlingham</p>
+    <a href="terms.html">Términos de servicio</a>
+    <p>© 2026 Asistencia SIU + Form al Toque · Universidad Nacional de Hurlingham</p>
   </footer>
 
 </body>
